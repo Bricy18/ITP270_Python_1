@@ -8,7 +8,7 @@
       pkgs.stdenv.cc.cc.lib
       pkgs.zlib
       # Needed for pygame
-      pkgs.glib
+      pkgs.glib 
     ];
     STDERRED_PATH = "${pkgs.stderred}/lib/libstderred.so";
     PYTHONBIN = "${pkgs.python38Full}/bin/python3.8";
